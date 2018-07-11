@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   root 'welcome#home'
 
   get '/login', to: 'sessions#create'
-  #post '/login', to: 'sessions#create'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
